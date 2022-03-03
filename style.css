@@ -41,10 +41,11 @@ main{
     top:30%;
     text-align: center;
     display:grid;
-    grid-template-rows: 3fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
     margin:5px;
     border: 10px solid pink;
     padding:10px;
+    height: max-content;
 }
 h1{
     font-family: 'Monoton', sans-serif;
@@ -57,6 +58,10 @@ h1:hover:first-letter{
 /* h1:nth-child(2):hover{
     color:blue;
 } */
+#name{
+    display: grid;
+    grid-template-rows: auto;
+}
 #name p{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -86,6 +91,10 @@ a{
     color:white;
     font-family: 'Monoton', sans-serif;
     font-size: 25px;
+}
+#project-links button{
+    height:60px;
+    width:60px;
 }
 #stuck{
     position: fixed;
