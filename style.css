@@ -1,21 +1,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&family=Press+Start+2P&display=swap');
 
-/* *{
-    padding:5px;
-} */
+*{
+    margin:5px;
+}
 header{
     padding:10px;
     position: fixed;
     right:3%;
-    top:3%;
+    top:1%;
+    border: 10px dashed pink;
+    height:max-content;
 }
-#welcome{
+
+#welcome-section{
     position:absolute;
-    top:15%;
+    top:12%;
+    left:2%;
+    border: 10px dashed pink;
+    text-align: left;
+    height:11%;
+    width:50%;
+}
+#welcome-button{
+    margin:10px;
 }
 #welcome p{
     font-family: 'Press Start 2P', cursive;
+    padding:10px;
 }
 
 body{
@@ -26,12 +38,12 @@ body{
 }
 main{
     position: absolute;
-    top:25%;
+    top:30%;
     text-align: center;
     display:grid;
     grid-template-rows: 3fr 1fr 1fr;
-    margin: 0 auto;
-    border: 15px solid pink;
+    margin:5px;
+    border: 10px solid pink;
     padding:10px;
 }
 h1{
@@ -84,4 +96,7 @@ a{
     font-family: 'Press Start 2P', cursive;
     font-size:8px;
     color:gray;
+}
+@media screen and (min-width:480px) {
+
 }
