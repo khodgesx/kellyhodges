@@ -47,6 +47,7 @@ main{
     border: 10px solid pink;
     padding:10px;
     height: max-content;
+    width:100%
 }
 h1{
     font-family: 'Monoton', sans-serif;
@@ -108,5 +109,14 @@ a{
     color:gray;
 }
 @media screen and (min-width:480px) {
-
+    main{
+        width:90%;
+    }
+    #welcome-section{
+        width: 30%;
+        font-size: 30px;
+    }
+    #welcome-section button{
+        font-size: 20px;
+    }
 }
