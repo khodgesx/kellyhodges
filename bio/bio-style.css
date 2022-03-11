@@ -1,0 +1,380 @@
+
+* {
+    padding: 0;
+}
+
+
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding: 25px 25px 25px;
+    font-weight: bolder;
+}
+
+#header-div p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    margin: 5px;
+    width:80%;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+
+header {
+    background-color: rgb(153, 188, 194);
+    color:white;
+    /* border: 5px dotted rgb(11, 12, 90); */
+    height: max-content;
+    width: 100%;
+    
+}
+
+
+#circle-nav{
+    display: none;
+}
+
+#hamburger {
+    height: 25px;
+    width:30px;
+    padding:10px;
+
+}
+#top-nav {
+    background-color:rgb(255, 208, 0);
+    margin:5px 0 5px 0;
+}
+
+
+.menu{
+    background-color: white;
+    border: 2px solid salmon;
+    opacity:0;
+    position:fixed;
+    padding:5px;
+    height:150px;
+    width:80%;
+    border-radius: 50px;
+    transform:translateX(100%);
+    z-index:1;
+}
+
+.menu-open {
+    transform: translateX(0%);
+    opacity:1;
+}
+
+a {
+    text-decoration: none;  
+    color:black;
+}
+#nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.links{
+    font-family: 'Dosis', sans-serif;
+    color:black;
+    margin:0;
+}
+#close{
+    text-align: center;
+    margin:0;
+    font-size: 30px;
+    color:white;
+    background-color: rgb(114, 207, 250);
+    border-radius: 50%;
+    height:35%;
+    padding-top: 10px;
+}
+.main-divs {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.main-divs p{
+    padding:10px;
+    margin: 0;
+}
+#pre-first-div {
+    height: max-content;
+    width: 100%;
+    background: rgb(157, 241, 213);
+}
+#first-div {
+    height: max-content;
+    width: 100%;
+    
+}
+
+
+#second-div {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(245, 99, 62);
+}
+
+#third-div {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(105, 182, 233);
+}
+#fourth-div {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(211, 165, 147);
+}
+#fifth-div {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(153, 188, 194);
+}
+#fifth-div ul{
+    list-style-type: none;
+    padding:0 15px;
+    color:white;
+    font-size: 20px;
+    margin:0;
+    text-align: center;
+}
+#fifth div p{
+    padding-top:0;
+    text-align: center;
+}
+
+#sixth-div {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(219, 238, 241);
+    font-size: 15px;;
+}
+
+.accordion-browser{
+    display:none;
+}
+.accordion{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    border: 2px solid orange;
+    padding:15px;
+    margin: 15px 0;
+}
+.accordion-content{
+    border:2px dotted green;
+    height:max-content;
+    width: 100%;
+    display:none;
+}
+
+#pizzas h1{
+    text-align: center;
+    color: rgb(1, 88, 1);
+}
+#pizza-title{
+    font-family: Monoton, cursive;
+    letter-spacing: 2px;
+    border: 2px solid orange;
+}
+.accordion img{
+    margin-left: 30%;
+    margin-top: 5px;
+    border: 3px solid green;
+}
+.accordion-content p{
+    font-family: 'Dosis', sans-serif;
+    padding:5px;
+}
+
+#footer-nav ul {
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    
+}
+
+.circle {
+    height:75px;
+    width:75px;
+    border-radius: 50%;
+    border: 5px dotted #c54e4e;
+    margin:25px;
+    font-size:15px;
+    background-color: rgb(255, 208, 0);
+    
+}
+
+.circle a {
+    font-weight: bolder;
+    font-family: 'Dosis', sans-serif;
+    color:black;
+}
+.rotate {
+    transition-duration: 0.8s;
+    transition-property: transform;
+
+  }
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
+
+
+/* bigger than tablet screen */
+@media screen and (min-width:800px) {
+    body{
+        margin:30px;
+        /* background-color: #d2d4e4; */
+    }  
+    header {
+        height: auto;
+        width: auto;
+    }
+    #header-div {
+        height:250px;
+    }
+
+   
+    #hamburger {
+        display: none;
+    
+    }
+    #top-nav {
+        background-color:rgb(255, 208, 0);
+        height: max-content;
+        width:100%;
+        margin: 0 15px 15px 0;
+    
+    }
+    #circle-nav{
+        display: flex;
+        justify-content: space-evenly;
+        grid-gap:10px;
+        height: 100%;
+        
+    }
+    #circle-nav button{
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        border: 5px dotted #c54e4e;
+        margin:5px;
+        background-color: rgb(255, 208, 0);
+    }
+    main{
+        display: grid;
+        grid-template-rows: auto;
+        padding:15px;
+        width:95%;
+        justify-items: center;
+        border: 2px dotted black;
+        margin:10px;
+        
+    }
+    .main-divs {
+        display: grid;
+        grid-template-rows: auto;
+        font-family: 'Dosis', sans-serif;
+        justify-content: space-evenly;
+    }
+    
+    .main-divs p{
+        padding:10px;
+    }
+ 
+
+    .div-border p{
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+  
+   
+
+    .menu {
+        display: none;
+     
+    }
+
+    
+    a {
+        text-decoration: none;  
+        color:black;
+    }
+
+
+    .links{
+        font-family: 'Dosis', sans-serif;
+        color:black;
+       
+    }
+   
+    #pizzas{
+        width: 100%;
+    }
+    #pizzas img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footer-nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin:25px;
+        background-color:white;
+        border: 3px dotted salmon;
+        
+    }
+    
+    .circle {
+        height:200px;
+        width:200px;
+        border-radius: 50%;
+        border: 5px dotted #c54e4e;
+        margin:25px;
+        font-size:15px;
+        background-color: rgb(255, 208, 0);
+        
+    }
+    
+    .circle a {
+        font-weight: bolder;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        color:black;
+    }
+    .rotate {
+        transition-duration: 0.8s;
+        transition-property: transform;
+    
+        }
+    
+    .rotate:hover { 
+    transform: rotate(360deg);
+    }
+    
+} 
+
+
+

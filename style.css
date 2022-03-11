@@ -37,9 +37,11 @@ body{
     justify-content: center;
     
 }
+/* try changing main positioning instead of absolute use centering  */
 main{
     position: absolute;
     top:30%;
+    margin:auto;
     text-align: center;
     display:grid;
     grid-template-rows: 3fr 1fr;
@@ -115,8 +117,11 @@ a{
     #welcome-section{
         width: 30%;
         font-size: 30px;
+        height:15%;
+        margin-bottom: 5px;
     }
     #welcome-section button{
         font-size: 20px;
     }
+
 }

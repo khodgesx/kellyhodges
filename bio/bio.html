@@ -4,15 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="website/images/favicon.ico">
-    <title>Bio</title>
+    <title>About KH</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="bio-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Monoton&family=Shizuru&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <nav id="top-nav">
+            <img id="hamburger"src="https://img.icons8.com/external-tal-revivo-light-tal-revivo/24/000000/external-hamburger-menu-list-with-parallel-navigation-button-basic-light-tal-revivo.png"/>
+            <ul id="circle-nav">  
+                <button class="circle rotate nav"><a class="links"href="index.html">Home</a></button>         
+                <button class="circle rotate nav"><a class="links"href="resume-experience.html">Resume/Exp</a></button>
+                <button class="circle rotate nav"><a class="links"href="projects.html">Projects</a></button>
+                <button class="circle rotate nav"><a class="links"href="#footer-nav">Contact</a></button>
+            </ul> 
+        </nav>
+        <aside class="menu">
+            <ul id="nav">      
+                <a class="links"href="index.html">Home</a>     
+                <a class="links"href="resume-experience.html">Resume/Exp</a>
+                <a class="links"href="projects.html">Projects</a>
+                <a id="contact-link"class="links"href="#footer-nav">Contact</a>
+            </ul>    
+            <h4 id="close"><a class="links"href="#" id="menu-close">X</a></h4>
+            
+        </aside>
+
+    <div class="div-border"id="first-div">
+        <p>
+            <p>
+                My name is Kelly Hodges and I am currently working through the Software Engineering
+                Immersive Program at <a id="ga" href="https://generalassemb.ly/education/software-engineering-immersive-remote" target="_blank">General Assembly</a>.
+                <br>
+                <br>
+                I love to learn and believe it is healthy to keep learning and challenging yourself throughout your life. 
+                Luckily, there is a lot of learning to be had when it comes to software engineering, I look forward to my 
+                journey.
+                <br>
+                <br>
+                I was born and raised in Long Beach, CA. I lived in San Francisco for a year, New Orleans for 6 years, and I am back in Long Beach. 
+                
+                <br>
+                <br>
+                I have an extreme love for baking and chomping pizza. I have a library of photos of the creative pizzas that my husband and I make, scroll down to see a few.
+            </p>
+
+            <section id="pizzas">
+                <h1 id="pizza-title">Homemade<br> Pizza<br> Rotation</h1>
+                
+                <div class="accordion">
+                    <h1 id="pizza-one">Butternut Squash Tikka Masala</h1>
+                    <div id="pizza-one-div" class="accordion-content">
+                        <img id="tikka-pizza" src="images/tikka-masala-arugula.jpeg" alt="tikka masala pizza with fresh arugula" width="150" height="75">
+                        <p>Tandoori spiced dough topped with a homemade tikka masala sauce, fresh mozzarella,
+                            roasted butternut squash and cauliflower, sauteed red onion, hazelnuts, and topped with fresh arugula. 
+                        </p>
+                    </div>
+                
+                    <h1 id="pizza-two">Veggie Pesto</h1>
+                    <div id="pizza-two-div" class="accordion-content">
+                        <img id="pesto-pizza" src="images/veggies-pesto.jpeg" alt="veggie pizza with pesto" width="100" height="75">
+                        <p>Homemade dough with pesto sauce, topped with fresh mozzarella, sauteed zucchini, cherry tomatoes, jalapenos, goat cheese, hazelnuts, and pumpkin seeds.
+                            The tomatoes and jalapenos are from our garden and the basil was made with fresh basil also from our garden. 
+                        </p>
+                    </div>
+              
+                    <h1 id="pizza-three">Szechuan Eggplant and Roasted Cauliflower</h1>
+                    <div id="pizza-three-div" class="accordion-content">
+                        <img id="pesto-pizza" src="images/egglplant-cauli-pizza.jpeg" alt="szechuan eggplant and roasted cauliflower pizza" width="100" height="75">
+                        <p>Homemade dough with fresh mozzarella, heirloom tomatoes, roasted cauliflower, szechuan eggplant, caramelized onions, and hazelnuts.
+                        </p>
+                    </div>
+                </div>
+    
+               
+            </section>
+    
     
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 crossorigin="anonymous"></script>
-<script src="app.js"></script>
+<script src="bio.js"></script>
 </html>
