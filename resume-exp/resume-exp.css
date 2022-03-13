@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Press+Start+2P&display=swap');
+
+
+body{
+    border:solid 10px rgb(247, 197, 205);
+}
+header{
+    padding:10px;
+    text-align: right;
+}
+div{
+    padding:10px;
+}
+.resume-head{
+    text-align: center;
+    font-size: 13px;
+
+}
+
+/* @media screen and (min-width:480px) {
+    .resume-head{
+        
+    }
+} */
