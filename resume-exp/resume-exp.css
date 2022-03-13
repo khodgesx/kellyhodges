@@ -8,6 +8,22 @@ header{
     padding:10px;
     text-align: right;
 }
+#site-links{
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    padding:5px;
+    margin:10px;
+    background-color:rgb(238, 185, 180, 0.8);
+}
+.circle a{
+    text-decoration: none;
+    color:white;
+}
 div{
     padding:10px;
 }
