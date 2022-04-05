@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Pacifico&family=Press+Start+2P&family=Ubuntu:wght@300&display=swap');
 * {
     padding: 0;
 }
 body{
-    background-color: #d2d4e4;
+ 
 }
 #project-header p{
     font-family: 'Press Start 2P', cursive;
@@ -19,7 +20,7 @@ header {
 }
 
 #top-nav {
-    background-color:rgb(255, 208, 0);
+    background-color:rgb(238, 187, 183);
     margin:5px 0 15px 0;
     padding:10px;
 }
@@ -60,7 +61,7 @@ a {
     margin:0;
 }
 .links{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color:black;
     margin:0;
 }
@@ -86,7 +87,7 @@ a {
     
 }
 .links{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color:black;
    
     display: flex;
@@ -97,71 +98,44 @@ a {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
-#buffy-game {
-    height: 200px;
+#recipe-div, #restaurant-div {
+    height: 60vh;
     width: 100%;
-    background-color: salmon;
-    font-size: 20px;
+    background-color: rgb(238, 187, 182);
+    font-size: 10vh;
+    margin: 10px auto;
 }
-#buffy-image{
-    display: none;
+#recipe-div h3, #restaurant-div h3{
+    font-size: 3vh;
+    padding:0 5px;
 }
-
-#giphy-collab {
+#recipe-div a, #restaurant-div a{
+    font-size: 4vh;
+    display: block;
+    margin: 2px auto;
+}
+#recipe-div img, #restaurant-div img{
+    height: 20vh;
+    width:auto;
+    display: block;
+    margin: 8px auto 0 auto;
+    border: solid 1px rgb(8, 7, 7);
+}
+#rest-proj{
     height: 200px;
     width: 100%;
     background-color: rgb(4, 9, 54);
-    font-size: 20px;
-    color: white;
-}
-#giphy-collab a{
-    text-decoration: underline;
-}
-#gif{
-    display: none;
-}
-#midge-carousel {
-    height: 200px;
-    width: 100%;
-    background-color: salmon;
-    font-size: 20px;
-}
-#midge-pic{
-    display: none;
-}
-
-
-#castle-project{
-    height: 200px;
-    width: 100%;
-    background-color: rgb(4, 9, 54);
-    font-size: 20px;
-    color: white;
-}
-#castle-barracks{
-    display: none;
-}
-#recipe-proj-button1{
-    height: 200px;
-    width: 100%;
-    background-color: salmon;
-    font-size: 20px;
-}
-#empty-proj-button2{
-    height: 200px;
-    width: 100%;
-    background-color: rgb(4, 9, 54);
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 .p-buttons{
     border: 3px dashed darkslategrey;
     border-radius: 2%;
-    font-family: 'Shizuru', cursive;
+    font-family: 'Ubuntu', cursive;
     font-size:30px;
     font-weight: 600;
 }
@@ -174,7 +148,7 @@ a {
 }
     
 h5{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: right;
     margin-right: 10px;
 }
@@ -208,7 +182,7 @@ h5{
 
 .circle a {
     font-weight: bolder;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color:black;
 }
 .rotate {
@@ -229,11 +203,10 @@ h5{
 /* bigger than tablet screen */
 @media screen and (min-width:800px) {
     body{
-        margin:30px;
-        background-color: #d2d4e4;
+        /* margin:30px; */
     }  
     header {
-        border-radius: 3%;
+        /* border-radius: 3%; */
     }
     #header-div {
         height:250px;
@@ -244,7 +217,7 @@ h5{
     
     }
     #top-nav {
-        background-color:rgb(255, 208, 0);
+        background-color:white;
         height: max;
         width: 95%;
         margin: 10px 15px;
@@ -277,15 +250,37 @@ h5{
   
    #proj-divs{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         padding:15px;
         margin:0;
-        
     }
-    #proj-divs h5{
-        margin: 0;
- 
-    
+
+    #recipe-div, #restaurant-div {
+        height: 90vh;
+        width: 100%;
+        background-color: rgb(238, 187, 182);
+        font-size: 20vh;
+        margin: 10px auto;
+    }
+    #recipe-div h3, #restaurant-div h3{
+        font-size: 3.5vh;
+        padding:0 5px;
+        text-align: center;
+    }
+    #recipe-div a, #restaurant-div a{
+        font-size: 6vh;
+        font-weight: 800;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    #recipe-div img, #restaurant-div img{
+        height: 50vh;
+        width:auto;
+        display: block;
+        margin: 8px auto 0 auto;
+        border: solid 1px rgb(8, 7, 7);
+    }
     .menu {
         display: none;
     }
@@ -297,7 +292,7 @@ h5{
     }
     
     .links{
-        font-family: 'Dosis', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         color:black;
     }
     
@@ -316,11 +311,11 @@ h5{
     }
     
     .circle {
-        height:200px;
-        width:200px;
+        height:125px;
+        width:125px;
         border-radius: 50%;
         border: 5px dotted #c54e4e;
-        margin:25px;
+        margin:25px 0;
         font-size:15px;
         background-color: rgb(255, 208, 0);
         
@@ -328,7 +323,7 @@ h5{
     
     .circle a {
         font-weight: bolder;
-        font-family: 'Dosis', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         font-size: 20px;
         color:black;
     }
