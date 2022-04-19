@@ -102,36 +102,30 @@ a {
 }
 
 
-#recipe-div, #restaurant-div {
+#recipe-div, #restaurant-div, #trashure-div{
     height: 60vh;
     width: 100%;
     background-color: rgb(238, 187, 182);
     font-size: 10vh;
     margin: 10px auto;
 }
-#recipe-div h3, #restaurant-div h3{
+#recipe-div h3, #restaurant-div h3, #trashure-div h3{
     font-size: 3vh;
     padding:0 5px;
 }
-#recipe-div a, #restaurant-div a{
+#recipe-div a, #restaurant-div a, #trashure-div a{
     font-size: 4vh;
     display: block;
     margin: 2px auto;
 }
-#recipe-div img, #restaurant-div img{
+#recipe-div img, #restaurant-div img, #trashure-div img{
     height: 20vh;
     width:auto;
     display: block;
     margin: 8px auto 0 auto;
     border: solid 1px rgb(8, 7, 7);
 }
-#rest-proj{
-    height: 200px;
-    width: 100%;
-    background-color: rgb(4, 9, 54);
-    font-size: 18px;
-    color: white;
-}
+
 .p-buttons{
     border: 3px dashed darkslategrey;
     border-radius: 2%;
@@ -255,26 +249,26 @@ h5{
         margin:0;
     }
 
-    #recipe-div, #restaurant-div {
+    #recipe-div, #restaurant-div, #trashure-div {
         height: 90vh;
         width: 100%;
         background-color: rgb(238, 187, 182);
         font-size: 20vh;
         margin: 10px auto;
     }
-    #recipe-div h3, #restaurant-div h3{
+    #recipe-div h3, #restaurant-div h3, #trashure-div h3{
         font-size: 3.5vh;
         padding:0 5px;
         text-align: center;
     }
-    #recipe-div a, #restaurant-div a{
+    #recipe-div a, #restaurant-div a, #trashure-div a{
         font-size: 6vh;
         font-weight: 800;
         display: block;
         margin: 10px auto;
         text-align: center;
     }
-    #recipe-div img, #restaurant-div img{
+    #recipe-div img, #restaurant-div img, #trashure-div img{
         height: 50vh;
         width:auto;
         display: block;
