@@ -87,6 +87,7 @@ nav{
     margin:10px;
     background-color:rgb(238, 185, 180, 0.8);
 }
+
 .circle:hover{
     background-color:rgb(236, 162, 155);
 }
@@ -95,6 +96,16 @@ a{
     color:white;
     font-family: 'Monoton', sans-serif;
     font-size: 25px;
+}
+.top{
+    height: 100px;
+    width:100px;
+}
+.top a{
+    font-size: 15px;
+}
+.circle a:hover{
+    color:blue;
 }
 #project-links button{
     height:60px;
