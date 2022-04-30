@@ -14,11 +14,12 @@
     font-family: 'Montserrat', sans-serif;
     color: black;
     background-color: rgb(154, 181, 223);
-    padding: 5px 25px 5px 25px ;
+    padding: 10px 50px;
     border: none;
     border-radius: 15px;
 }
 #quote{
+    padding:10px;
     margin:10px;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
@@ -65,10 +66,10 @@ h1:hover:first-letter{
     background-color:rgb(238, 185, 180, 0.8);
 }
 #kelly{
-height: 150px;
-width: 150px;
-border-radius: 50%;
-margin: 5px auto 15px auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px auto 15px auto;
 }
 
 .circle:hover{
@@ -89,6 +90,12 @@ a{
 }
 .circle a:hover{
     color:blue;
+}
+#bio p{
+    text-align: center;
+    font-size: 2.5vh;
+    border: dashed 2px rgb(154, 181, 223);
+    padding:15px;
 }
 #proj-divs{
     display: grid;
