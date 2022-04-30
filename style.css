@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&family=Press+Start+2P&family=Smooch+Sans:wght@300&display=swap');
 
+ *{
+    cursor:url('./images/pizza-color.png'),auto;
+ } 
 #welcome-section{
     border: 10px dashed pink;
     height: 15vh;
@@ -31,7 +34,7 @@ h1:hover:first-letter{
     color:blue;
 } 
 
- #name{
+#name{
     display: grid;
     grid-template-rows: auto;
     text-align: center;
@@ -42,6 +45,13 @@ h1:hover:first-letter{
 #name p, #bio{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
+}
+#brand{
+    border: dashed 2px rgb(154, 181, 223);
+    padding:15px;
+    letter-spacing: 0.5px;
+    line-height: 4.5vh;
+    font-size: 3vh;
 }
 #site-links, #project-links{
     text-align: center;
