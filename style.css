@@ -1,55 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&family=Press+Start+2P&family=Smooch+Sans:wght@300&display=swap');
 
-*{
-    margin:5px;
-    font-family: 'Smooch Sans', sans-serif;
-}
-header{
-    padding:10px;
-    position: fixed;
-    right:3%;
-    top:1%;
-    border: 10px dashed pink;
-    height:max-content;
-}
-
 #welcome-section{
-    position:absolute;
-    top:12%;
-    left:2%;
     border: 10px dashed pink;
-    text-align: left;
-    height:11%;
-    width:50%;
+    height: 15vh;
 }
-#welcome-button{
+#get-quote{
+    display: block;
+    margin:10px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: rgb(154, 181, 223);
+    padding: 5px 25px 5px 25px ;
+    border: none;
+    border-radius: 15px;
+}
+#quote{
     margin:10px;
-}
-#welcome p{
-    font-family: 'Press Start 2P', cursive;
-    padding:10px;
-}
-
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-/* try changing main positioning instead of absolute use centering  */
-main{
-    position: absolute;
-    top:30%;
-    margin:auto;
     text-align: center;
-    display:grid;
-    grid-template-rows: 3fr 1fr;
-    margin:5px;
-    border: 10px solid pink;
-    padding:10px;
-    height: max-content;
-    width:100%
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(154, 181, 223);
+    background-color: white;
 }
 h1{
     font-family: 'Monoton', sans-serif;
@@ -58,26 +29,22 @@ h1{
 }
 h1:hover:first-letter{
     color:blue;
-}
-/* h1:nth-child(2):hover{
-    color:blue;
-} */
-#name{
+} 
+
+ #name{
     display: grid;
     grid-template-rows: auto;
+    text-align: center;
 }
-#name p{
+#name h1{
+    margin-bottom: 0;
+}
+#name p, #bio{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
-#site-links{
-    position: relative;
-    top:5%;
-}
-
-nav{
-    width:100%;
-    height:100%;
+#site-links, #project-links{
+    text-align: center;
 }
 .circle{
     height:50px;
@@ -86,6 +53,12 @@ nav{
     padding:5px;
     margin:10px;
     background-color:rgb(238, 185, 180, 0.8);
+}
+#kelly{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+margin: 5px auto 15px auto;
 }
 
 .circle:hover{
@@ -107,6 +80,87 @@ a{
 .circle a:hover{
     color:blue;
 }
+#proj-divs{
+    display: grid;
+    grid-template-rows: auto;
+    padding:15px;
+    margin:0;
+}
+
+#pour-pair-div, #recipe-div, #restaurant-div, #trashure-div {
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(238, 187, 182);
+    font-size: 20vh;
+    margin: 10px auto;
+}
+#pour-pair-div h3, #recipe-div h3, #restaurant-div h3, #trashure-div h3{
+    font-size: 3.5vh;
+    padding:0 5px;
+    text-align: center;
+}
+#pour-pair-div a, #recipe-div a, #restaurant-div a, #trashure-div a{
+    font-size: 6vh;
+    font-weight: 800;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+#pour-pair-div a:hover, #recipe-div a:hover, #restaurant-div a:hover, #trashure-div a:hover{
+    color:blue;
+}    
+#pour-pair-div img, #recipe-div img, #restaurant-div img, #trashure-div img{
+    height: 40vh;
+    width:auto;
+    display: block;
+    margin: 8px auto 0 auto;
+    border: solid 1px rgb(8, 7, 7);
+}
+#resume{
+    border: solid 1px black;
+    margin: 0 auto;
+    padding: 5px 25px;
+    letter-spacing: 0.5px;
+}
+.resume-head{
+    text-align: center;
+}
+.resume-head h1{
+    font-size: 5vh;
+}
+.color-links{
+    color:blue;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#resume div{
+    padding-top:15px;
+    border-bottom: solid 1px black;
+}
+footer a, footer ul{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color:blue;
+    list-style-type: none;
+}
+
+/* 
+*{
+    margin:5px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+header{
+    padding:10px;
+    position: fixed;
+    right:3%;
+    top:1%;
+    border: 10px dashed pink;
+    height:max-content;
+}
+
+
+
 #project-links button{
     height:60px;
     width:60px;
@@ -143,4 +197,4 @@ a{
         font-size: 20px;
     }
 
-}
+} */

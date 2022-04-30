@@ -17,3 +17,15 @@ function typeWriter() {
 //       setTimeout(typeWriter, speed);
 //     }
 //   }
+
+//quote button for quote api
+async function quotes(){
+
+  const urlString = 'https://api.github.com/zen';
+  const response = await fetch(urlString);
+  const results = await response.text();
+
+  $('#quote').html(results)
+  
+}
+$('#get-quote').on('click', quotes);

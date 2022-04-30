@@ -14,49 +14,190 @@
 
 <a href="https://icons8.com/icon/ca9WJbMnE1ox/hamburger-menu-list-with-parallel-navigation-button"></a>
 
-    
-    
     <link rel="stylesheet" href="style.css">
 </head>
 
 <header>
-    <nav id="top-nav">
-        <a href="mailto:zkellyhodges@gmail.com"><img src="images/gmail.png" alt="gmail logo"></a>
-        <a href="https://www.linkedin.com/in/kelly-hodges1/" target="_blank"><img src="images/LI-In-Bug.png" alt="linkedin logo" width="32" height="32"></a>
-        <a href="https://github.com/khodgesx" target="_blank"><img src="images/GitHub-Mark-32px.png" alt="github logo"></a>
-    </nav>
     
 </header>
-<section id="welcome-section">
+    <section id="welcome-section">
     
-    <button id="welcome-button"onclick="typeWriter()">Click me</button>
-    <p id="welcome"></p>
-</section>
+        <!-- <button id="welcome-button"onclick="typeWriter()">Click me</button> -->
+        <!-- <p id="welcome"></p> -->
+        <button id="get-quote"onclick=quotes()>Code Zen</button>
+        <p id="quote"></p>
+    </section>
 <body>
-<main>
-    <div id="name">
-        <h1>KELLY</h1>
-    
-        <div id="interactive">
-            <p id="title">Full-Stack Developer, Dog Mom, Pizza Enthusiast.</p>
-            <p id="brand">I am a Full-stack Developer looking for opportunities to work for a company that leaves the tech space better than they found it. With a background in neuroscience and hospitality, I am not afraid to try new things and dive into research. </p>
+    <!-- <main> -->
+        <section id="intro">
+            <div id="name">
+                <h1>KELLY</h1>
+                <img id="kelly"src="./images/khodges.png">
+                <div id="contact">
+                    <a href="mailto:zkellyhodges@gmail.com"><img src="images/mail-icon.png" alt="mail logo" width="32" height="32"></a>
+                    <a href="https://www.linkedin.com/in/kelly-hodges1/" target="_blank"><img src="images/linkedin-icon.png" alt="linkedin logo" width="32" height="32"></a>
+                    <a href="https://github.com/khodgesx" target="_blank"><img src="images/GitHub-Mark-32px.png" alt="github logo"></a>
+                </div>
+                <div id="interactive">
+                    <p id="title">Full-Stack Developer, Dog Mom, Pizza Enthusiast.</p>
+                    <p id="brand">I am a Full-stack Developer looking for opportunities to work for a company that leaves the tech space better than they found it.
+                        With a background in neuroscience and hospitality, I am not afraid to try new things and dive into research. </p>
+                </div>
+                <nav id="site-links">
+                    <button class="circle top"><a href="#bio">About</a></button>
+                    <button class="circle top"><a href="#resume">Resume</a></button>
+                    <button class="circle top"><a href="#proj-divs">Projects</a></button>
+                </nav>
+        
+            </div>
+            <nav id="project-links">
+                <button class="circle"><a href="https://feastr.herokuapp.com/"target="_blank">P1</a></button>
+                <button class="circle"><a href="https://yummy-decisions.herokuapp.com/"target="_blank">P2</a></button>
+                <button class="circle"><a href="https://trashure-finder.herokuapp.com/" target="_blank">P3</a></button>
+                <button class="circle"><a href="https://pour-pair.herokuapp.com/" target="_blank">P4</a></button>
+                
+            </nav>
+    </section>
+    <!-- </main> -->
+    <section id="bio">
+        <p>
+            My name is Kelly Hodges and I am a General Assembly Software Engineering Immersive Grad.
+            <br>
+            <br>
+            I love to learn and the research shows that it is healthy to keep learning and challenging yourself throughout your life. 
+            Luckily, there is a lot of learning to be had when it comes to software engineering.
+            <br>
+            <br>
+            I was born and raised in Long Beach, CA. I lived in San Francisco for a year, New Orleans for 6 years, and now I am back in good old Long Beach. 
+            
+            <br>
+            <br>
+            I have an extreme love for baking and chomping pizza.
+        </p>
+</section>
+    <section id="proj-divs">
+        <div id="pour-pair-div">
+        
+            <a class="white-links"href="https://pour-pair.herokuapp.com/" target="_blank">Pour Pair</a>
+            <h3>JavaScript | React.js | Express.js | EJS | Node.js | MongoDB </h3>
+            <img src="./images/pour-pair.png">
+            <h3>An App to find and save wines and meal pairings</h3>
+            
+    </div>
+
+        <div id="recipe-div">
+            
+            <a class="white-links"href="https://feastr.herokuapp.com/" target="_blank">Feastr </a>
+            <h3>JavaScript | Express.js | EJS | Node.js | MongoDB</h3>
+            <img src="./images/feastr.png">
+                <h3>A recipe sharing app</h3>
+                <h3>Collaborated with: Vickie Vien & Branislav Todorovic</h3>
+                
         </div>
-    <nav id="site-links">
-        <button class="circle top"><a href="bio/bio.html">About</a></button>
-        <button class="circle top"><a href="./resume-exp/resume-experience.html">Resume</a></button>
-        <button class="circle top"><a href="./projects/projects.html">Projects</a></button>
-    </nav>
-</div>
-<nav id="project-links">
-    <button class="circle"><a href="https://feastr.herokuapp.com/"target="_blank">P1</a></button>
-    <button class="circle"><a href="https://yummy-decisions.herokuapp.com/"target="_blank">P2</a></button>
-    <button class="circle"><a href="https://trashure-finder.herokuapp.com/" target="_blank">P3</a></button>
-    <button class="circle"><a href="https://pour-pair.herokuapp.com/" target="_blank">P4</a></button>
+        <div id="restaurant-div">
+        
+            <a class="white-links"href="https://yummy-decisions.herokuapp.com/" target="_blank">Yummy Decisions </a>
+            <h3>JavaScript | React.js | Express.js | Node.js | MongoDB</h3>
+            <img src="./images/yummy.png">
+                <h3>A restaurant organizer for hungry people</h3>
+                
+        </div>
+        <div id="trashure-div">
+        
+            <a class="white-links"href="https://trashure-finder.herokuapp.com/" target="_blank">Trashure </a>
+            <h3>JavaScript | React.js | Python | Django </h3>
+            <img src="./images/trashure.png">
+            <h3>A space to share things instead of throwing them away</h3>
+            
+    </div>
+    </section>  
+
+   
+    <section id="resume">
+        <div class="resume-head">
+            <h1>KELLY HODGES</h1> 
+            <h2> Full Stack Developer </h2>
+            <h3>
+                zkellyhodges@gmail.com ∙ Long Beach, CA ∙  
+            </h3>
+            <a class="color-links"href= "files/KHodges Resume_2022.pdf"target="_blank">open resume</a>
+            <a class="color-links" id="resume-link" href="files/KHodges Resume_2022.pdf" download="Kelly-Hodges-Resume">Download resume</a>
+        </div>
+        
+        <div class="skills">
+            <h2> SKILLS</h2>
+            <p>
+            <strong>Languages</strong> - JavaScript, HTML, CSS <strong>| Libraries and Frameworks</strong> - Node.js, Express.js, React.js, bcrypt.js
+            Database -  MongoDB, Mongoose <strong>| Other</strong> - RESTful Routing JSON, API Calls, Github, Visual Studio Code
+            </p> 
+        </div>
+       
+        <div class="projects">
+            <h3>SOFTWARE DEVELOPMENT PROJECTS</h3>
+            <h3><a class="color-links"href="https://feastr.herokuapp.com/" target="_blank">Feastr</a>  | Responsive recipe-sharing app - March 2022</h3>
+            <h4>JavaScript, Express.js, EJS, Node.js, MongoDB, Mongoose, Bootstrap	</h4>
+            <ul>
+                <li>Collaborated with a team to create a recipe sharing app that allows users to create, share, and save recipes</li>
+                <li>Server-rendered web app uses Express.js and EJS in conjunction with MongoDB to deliver full CRUD capability</li>
+                <li>Created a two-model relational database with MongoDB to enhance app functionality</li>
+                <li>Utilized version management with Github in order to effectively collaborate to ensure coding best practices were implemented successfully</li>
+            </ul>
+        
+            
+            <h3><a class="color-links"href="https://yummy-decisions.herokuapp.com/" target="_blank">Yummy Decisions</a>  | Restaurant organizer app - March 2022</h3>
+            <h4>JavaScript, React.js, Express.js, Node.js, MongoDB, Mongoose, Bootstrap	</h4>
+            <ul>
+                <li>Engineered a full stack app utilizing the MERN stack to create a place for organizing a user’s favorite restaurants</li>
+                <li>Developed the backend API using MongoDB, Node, and Express to communicate with the frontend which was built with React.js</li>
+                <li>Implemented Cloudinary API to share photos and utilized local storage to allow user login feature</li>
+            </ul>
     
-</nav>
-</main>
-
-
+            <h3><a class="color-links"href="https://trashure-finder.herokuapp.com/" target="_blank">Trashure</a>  | Free marketplace/Freecycle App - April 2022</h3>
+            <h4>Django API, React.js</h4>
+            <ul>
+                <li>Created a backend API with Django while designing and executing the frontend with React.js</li>
+                <li>Enabled multi-page functionality with React Router</li>
+                <li>Ensured full-crud for items shared by users</li>
+            </ul>
+    
+            <h3><a class="color-links"href="https://pour-pair.herokuapp.com/" target="_blank">Pour Pair</a>  | Wine Pairing & Wine Search App - April 2022</h3>
+            <h4>JavaScript, React.js, Express.js, Node.js, MongoDB, Mongoose, Bootstrap	</h4>
+            <ul>
+                <li>Built a full-stack MERN App for users to find wine pairings and wine by varietal from the Spoonacular API</li>
+                <li>Programmed crud routes to include saving data from Spoonacular API that users can then access later and modify as needed</li>
+                <li>Orchestrated layered fetch calls to enable meal pairing with wines saved from API and wines created by user</li>
+            </ul>
+    
+                
+        </div>
+    
+        <div class="prof-experience">
+            <h3>PROFESSIONAL EXPERIENCE</h3>
+            <h4>Shannon’s Rotisserie, Inc.,  Office Manager | Long Beach, CA	  October 2014 - February 2022</h4>
+            <ul>
+                <li>Oversaw back office operations end to end -  including management of finances, sales analysis, bookkeeping, as well as organizing and securing all employee documentation </li>
+                <li>Assisted sister company in regulating and monitoring commercial property management</li>
+            </ul>
+            <h4>LSUHSC Cell Biology and Anatomy,  Research Associate | City, State	 July 2013 - September 2014</h4>
+            <ul>
+                <li>Managed daily lab operations including maintaining lab supplies and training incoming lab members</li>
+                <li>Coordinated with principal investigator to lead experimental research collection</li>
+            </ul>
+        </div>
+        
+        <div class="education">
+            <h3>EDUCATION	</h3>
+            <h4>GENERAL ASSEMBLY | REMOTE -- February 2022 - May 2022</h4>
+            <h4>Software Engineering Immersive	      </h4>
+            <p>Full-stack software engineering immersive student in an intensive, twelve-week, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects</p>
+    
+            <h4>TULANE UNIVERSITY | NEW ORLEANS, LA	-- May 2013</h4>
+            <h4>Master of Science in Neuroscience	</h4>
+            <p>Master’s Thesis: “Learning-Induced Changes in Muscarinic Receptor Binding Density as a Function of Cognitive Strategy</p>
+            <h4>TULANE UNIVERSITY | NEW ORLEANS, LA	-- May 2012</h4>
+            <h4>Bachelor of Science in Neuroscience, minor in Psychology</h4>
+        </div>
+    </section>
 
 
 
@@ -65,7 +206,12 @@
     
 </body>
 <footer>
-    <a id="stuck"href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icon created by Freepik - Flaticon</a>
+   <ul>
+       <li><a href="#intro">Back To Top</a></li>
+       <li><a href="#contact">Contact</a></li>
+       <li><a href="https://www.linkedin.com/in/kelly-hodges1/">LinkedIn</a></li>
+       <li><a href="https://github.com/khodgesx">GitHub</a></li>
+   </ul>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
