@@ -43,10 +43,31 @@ h1:hover:first-letter{
 #name h1{
     margin-bottom: 0;
 }
-#name p, #bio{
+#name p, #bio, #skills-one, #skills-two{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
+#skills-one, #skills-two{
+    line-height: 4vh;
+}
+#skills-two{
+    text-align: right;
+}
+#skills-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: dashed 2px rgb(154, 181, 223);
+    padding:15px;
+    /* background-image: url('/images/yin-yang.png'); */
+}
+.skills-section h2{
+    text-align: center;
+    font-family: 'Monoton', sans-serif;
+    letter-spacing: 6px;
+    font-size: 4.5vh;
+
+}
+
 #brand{
     border: dashed 2px rgb(154, 181, 223);
     padding:15px;
@@ -94,7 +115,7 @@ a{
 #bio p{
     text-align: center;
     font-size: 2.5vh;
-    border: dashed 2px rgb(154, 181, 223);
+    border: dashed 2px rgb(207, 128, 18);
     padding:15px;
 }
 #proj-divs{
@@ -105,16 +126,23 @@ a{
 }
 
 #pour-pair-div, #recipe-div, #restaurant-div, #trashure-div {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     background-color: rgb(238, 187, 182);
     font-size: 20vh;
     margin: 10px auto;
 }
 #pour-pair-div h3, #recipe-div h3, #restaurant-div h3, #trashure-div h3{
-    font-size: 3.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
     padding:0 5px;
     text-align: center;
+}
+#recipe-div h4{
+    font-family: 'Montserrat', sans-serif;
+    padding:0 5px;
+    text-align: center;
+    font-size: 2vh;
 }
 #pour-pair-div a, #recipe-div a, #restaurant-div a, #trashure-div a{
     font-size: 6vh;
@@ -132,6 +160,9 @@ a{
     display: block;
     margin: 8px auto 0 auto;
     border: solid 1px rgb(8, 7, 7);
+}
+#img-hover:hover{
+    border: solid 5px blue;
 }
 #resume{
     border: solid 1px black;
@@ -162,56 +193,6 @@ footer a, footer ul{
     list-style-type: none;
 }
 
-/* 
-*{
-    margin:5px;
-    font-family: 'Smooch Sans', sans-serif;
-}
-header{
-    padding:10px;
-    position: fixed;
-    right:3%;
-    top:1%;
-    border: 10px dashed pink;
-    height:max-content;
-}
 
 
 
-#project-links button{
-    height:60px;
-    width:60px;
-}
-#stuck{
-    position: fixed;
-    bottom:0;
-    right:0;
-}
-#stuck {
-    font-family: 'Press Start 2P', cursive;
-    font-size:8px;
-    color:gray;
-}
-#title{
-    font-size: 2.5vh;
-}
-#brand{
-    margin: 15px auto;
-    width: 65vw;
-    text-align: center;
-}
-@media screen and (min-width:480px) {
-    main{
-        width:90%;
-    }
-    #welcome-section{
-        width: 30%;
-        font-size: 30px;
-        height:15%;
-        margin-bottom: 5px;
-    }
-    #welcome-section button{
-        font-size: 20px;
-    }
-
-} */
