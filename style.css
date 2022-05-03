@@ -31,7 +31,7 @@ h1{
     letter-spacing: 15px;
     font-size:50px;
 }
-h1:hover:first-letter{
+h1:hover:first-letter, .skills-section h2:hover:first-letter{
     color:blue;
 } 
 
@@ -58,14 +58,12 @@ h1:hover:first-letter{
     grid-template-columns: 1fr 1fr;
     border: dashed 2px rgb(154, 181, 223);
     padding:15px;
-    /* background-image: url('/images/yin-yang.png'); */
 }
 .skills-section h2{
     text-align: center;
     font-family: 'Monoton', sans-serif;
     letter-spacing: 6px;
     font-size: 4.5vh;
-
 }
 
 #brand{
