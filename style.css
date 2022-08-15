@@ -124,7 +124,7 @@ a{
 }
 
 #pour-pair-div, #recipe-div, #restaurant-div, #trashure-div {
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     background-color: rgb(238, 187, 182);
     font-size: 20vh;
@@ -182,6 +182,24 @@ a{
 #resume div{
     padding-top:15px;
     border-bottom: solid 1px black;
+}
+
+#wine-gh-links h3, #recipe-gh-links h3, #rest-gh-links h3, #trash-gh-links h3{
+    color:rgb(2, 174, 221);
+    font-size: 2.5vh;
+    margin-bottom: 0;
+}
+#wine-gh-links li, #recipe-gh-links li, #rest-gh-links li, #trash-gh-links li{
+    list-style-type: none;
+}
+#wine-gh-links a, #recipe-gh-links a, #rest-gh-links a, #trash-gh-links a{
+    font-size:2vh;
+    font-family: tahoma;
+    color:rgb(255, 94, 0);
+    list-style-type: none;
+}
+#wine-gh-links a:hover, #recipe-gh-links a:hover, #rest-gh-links a:hover, #trash-gh-links a:hover{
+    color:white;
 }
 footer a, footer ul{
     font-family: 'Montserrat', sans-serif;
