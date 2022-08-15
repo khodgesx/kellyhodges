@@ -209,6 +209,16 @@ footer a, footer ul{
     list-style-type: none;
 }
 
+@media(max-width: 400px){
+    body{
+        width: fit-content;
+    }
+    footer a, footer ul{
+        display: grid;
+        grid-template-rows: auto;
+        padding: 10px;
+    }
+}
 
 
 
