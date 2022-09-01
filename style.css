@@ -1,14 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&family=Press+Start+2P&family=Smooch+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
  *{
     cursor:url('./images/pizza-color.png'),auto;
  } 
-#welcome-section{
+.welcome-section{
     border: 10px dashed pink;
-    height: 15vh;
+    height: 18vh;
 }
-#get-quote{
+#get-joke{
     display: block;
     margin:10px auto;
     font-family: 'Montserrat', sans-serif;
@@ -18,13 +18,26 @@
     border: none;
     border-radius: 15px;
 }
-#quote{
+#get-joke:hover{
+    filter: brightness(120%);
+}
+#get-joke:active{
+    transform: scale(0.97);
+}
+.joke{
     padding:10px;
     margin:10px;
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    color: rgb(154, 181, 223);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3vh;
+    color: rgb(142, 81, 35);
     background-color: white;
+}
+.big-joke-area {
+    height: 23vh;
+}
+.big-joke-font {
+    font-size: 2.5vh;
 }
 h1{
     font-family: 'Monoton', sans-serif;
